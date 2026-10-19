@@ -1,0 +1,27 @@
+
+# API and application
+fastapi[standard]
+python-multipart
+pydantic-settings
+
+# Microsoft Foundry / Azure OpenAI model access
+openai
+azure-identity
+
+# Document extraction
+pymupdf
+python-docx
+docling
+
+# HTTP requests for approved research sources
+httpx
+
+# Environment configuration
+python-dotenv
+
+# package
+uv
+poetry
+
+black
+

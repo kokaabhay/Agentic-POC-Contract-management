@@ -13,3 +13,6 @@ venv/
 
 #testing
 .pytest_cache/
+
+*.egg-info/
+
