@@ -25,3 +25,9 @@ poetry
 
 black
 
+fastapi[standard]
+python-multipart
+pydantic-settings
+python-dotenv
+azure-storage-blob
+docling

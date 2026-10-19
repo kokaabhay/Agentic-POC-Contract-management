@@ -16,3 +16,12 @@ venv/
 
 *.egg-info/
 
+
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+data/
