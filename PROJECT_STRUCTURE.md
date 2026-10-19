@@ -9,20 +9,26 @@ Agentic-POC-Contract-management/
 ├── .git
 │   └── [contents excluded]
 ├── api
-│   └── routes
+│   ├── routes
+│   │   └── __init__.py
+│   └── __init__.py
 ├── scripts
+│   ├── __init__.py
 │   └── generate_structure.py
 ├── src
 │   ├── app
+│   │   ├── __init__.py
 │   │   ├── config.py
 │   │   ├── logger_config.py
 │   │   └── main.py
-│   └── app.egg-info
-│       ├── dependency_links.txt
-│       ├── PKG-INFO
-│       ├── SOURCES.txt
-│       └── top_level.txt
+│   ├── app.egg-info
+│   │   ├── dependency_links.txt
+│   │   ├── PKG-INFO
+│   │   ├── SOURCES.txt
+│   │   └── top_level.txt
+│   └── __init__.py
 ├── tests
+│   └── __init__.py
 ├── venv
 │   └── [contents excluded]
 ├── .env
@@ -35,6 +41,18 @@ Agentic-POC-Contract-management/
 ```
 
 ## Python Architecture
+
+### `api\__init__.py`
+
+No classes, functions, or imports detected.
+
+### `api\routes\__init__.py`
+
+No classes, functions, or imports detected.
+
+### `scripts\__init__.py`
+
+No classes, functions, or imports detected.
 
 ### `scripts\generate_structure.py`
 
@@ -51,6 +69,14 @@ Agentic-POC-Contract-management/
 - `pathlib`
 - `ast`
 
+### `src\__init__.py`
+
+No classes, functions, or imports detected.
+
+### `src\app\__init__.py`
+
+No classes, functions, or imports detected.
+
 ### `src\app\config.py`
 
 No classes, functions, or imports detected.
@@ -63,6 +89,10 @@ No classes, functions, or imports detected.
 
 **Imports:**
 - `subprocess`
+
+### `tests\__init__.py`
+
+No classes, functions, or imports detected.
 
 ## Collapsed Directories
 
